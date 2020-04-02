@@ -1,0 +1,18 @@
+<?php
+$r = rand(1,200);
+const PI = 3.14;
+$s = PI * $r;
+echo "R=".$r." S=".$s;
+?>
+<div id="circle"></div>
+<style>
+     #circle {
+      width: <?php echo $r*2?>px;
+      height: <?php echo $r*2?>px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: <?php echo $r?>px;
+      border:1px solid black;
+      background: white;
+    }
+</style>
