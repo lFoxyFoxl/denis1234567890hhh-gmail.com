@@ -1,0 +1,6 @@
+<?php
+  $arr = [rand(1,1000),rand(1,1000),rand(1,1000),rand(1,1000),rand(1,1000),rand(1,1000)];
+  var_dump($arr);
+  array_reverse($arr);
+?>
+<p><?php var_dump(array_reverse($arr)); ?></p>
