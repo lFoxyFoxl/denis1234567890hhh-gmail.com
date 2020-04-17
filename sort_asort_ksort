@@ -1,0 +1,19 @@
+<?php 
+$names["Иванов"]=2004;
+$names["Сидоров"]=2000;
+$names["Петров"]=1999;
+ksort($names);
+print_r($names);
+echo "<br>";
+$names["Иванов"]=2004;
+$names["Сидоров"]=2000;
+$names["Петров"]=1999;
+sort($names, SORT_NUMERIC);
+print_r($names);
+echo "<br>";
+$names["Иванов"]=2004;
+$names["Сидоров"]=2000;
+$names["Петров"]=1999;
+asort($names, SORT_NUMERIC);
+print_r($names);
+?>
