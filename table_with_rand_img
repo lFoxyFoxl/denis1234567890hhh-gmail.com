@@ -1,0 +1,8 @@
+<table border="1">
+<?php
+$n = rand(1,10);
+for ( $i=1 ; $i <= $n ; $i++){
+  echo "<tr><td>".$i."</td><td>"."<img src='".$i."_img.png'>"."</td></tr>";
+};
+?>
+</table>
